@@ -2,16 +2,21 @@
 
 ## Project's design overview
 
-> Give an overview of your project's design
-
-<!-- give an overview of your project's design -->
-<!-- describe the reasoning behind your group's design and wireframe -->
-<!-- include other centralized decisions like fonts, palates, ... -->
+> This is my Portfolio for You that want to know about me as a frontend
+> developer
 
 ---
 
 ## Wireframe(s)
 
-> Include your wireframe(s) and link to wireframe
+### Home page
 
-<!-- provide a link to your wireframe documenting on Figma, or wherever it is -->
+![My  Portfolio](./head.gif)
+
+### Features page
+
+![My Portfolio  features wireframe](./feature.gif)
+
+### Docs page
+
+![My Portfolio docs wireframe](./design.gif)

@@ -121,7 +121,7 @@ this feature developed on a branch `footer`
 
 #### CSS
 
-- style `footer` with display block and unicode-bidi
+- style `footer` with display block and unicode-bid
 - style `a` tag under `social` class with margin
 - style `md` with font size
 - style the icons

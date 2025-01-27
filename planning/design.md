@@ -1,4 +1,3 @@
-
 # Design
 
 ## Project's design overview
@@ -10,7 +9,7 @@
 
 ## Wireframe(s)
 
-### Home pagel
+### Home page
 
 ![My  Portfolio](./head.gif)
 

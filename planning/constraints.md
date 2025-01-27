@@ -4,7 +4,7 @@ Some boundaries around our project.
 
 ## External
 
-- project deadlines: 1 week 
+- project deadlines: 1 week
 
 ## Internal
 

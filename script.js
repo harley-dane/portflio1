@@ -67,3 +67,8 @@ hamburger.addEventListener("click", () => {
 close.addEventListener("click", () => {
   nav.classList.remove("nav-display-block");
 });
+
+function myFunction() {
+  let element = document.body;
+  element.classList.toggle("white-mode");
+}

@@ -1,11 +1,10 @@
 @import url("reset.css");
 
-/* font-family: 'Bubblegum Sans',
-sans-serif;
-font-family: 'Finger Paint',
-sans-serif;
-font-family: 'Sarina',
-sans-serif; */
+::before ::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
 html {
   scroll-behavior: smooth;

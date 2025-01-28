@@ -1,5 +1,10 @@
 @import url("reset.css");
 
+::before ::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
 html {
   scroll-behavior: smooth;
@@ -14,21 +19,9 @@ body {
   background-color: #23252c;
 }
 
-.white-mode {
-  background-color: white;
-  color: black;
-}
-
-.toggle {
-  width: 20px;
-}
-
-.change-color a {
-  color: black;
-}
-
 a {
   text-decoration: none;
+  color: darkgreen;
 }
 
 .avatar {
@@ -158,7 +151,7 @@ nav a {
 }
 
 nav a:visited {
-  color: blue;
+  color: green;
 }
 
 .nav-li > a:hover {
@@ -234,13 +227,13 @@ nav a:visited {
   margin-top: 3rem;
   padding: 2rem;
   font-size: 2.5rem;
-  color: #080bafd5;
+  color: #23bd61d5;
 }
 
 .about-h2 {
   font-weight: lighter;
   font-size: 8rem;
-  color: #43e403;
+  color: rgb(145, 247, 105);
   filter: brightness(80%);
 }
 
@@ -263,7 +256,7 @@ nav a:visited {
   text-align: center;
   letter-spacing: 0.2rem;
   line-height: 2.5rem;
-  color: darkgreen;
+  color: green;
 }
 
 .about-social-media {
@@ -313,7 +306,7 @@ nav a:visited {
   justify-content: center;
   align-items: center;
   width: 80%;
-  color: #fff;
+  color: darkgreen;
 }
 
 .skills-h2,
@@ -322,7 +315,7 @@ nav a:visited {
   position: relative;
   left: -9rem;
   font-size: 4rem;
-  color: darkgreen;
+  color: green;
 }
 
 .skills-hr,
@@ -368,13 +361,13 @@ nav a:visited {
 
 .skills-description {
   padding: 5rem 2rem;
-  font-family: "", sans-serif;
+  font-family: sans-serif;
   font-size: 1.7rem;
-  color: #17a61e;
+  color: darkgreen;
   text-align: center;
   letter-spacing: 0.2rem;
   line-height: 2.5rem;
-  border-top: 2px solid #830372;
+  border-top: 2px solid #aad39a;
 }
 
 /* Projects */
@@ -412,20 +405,15 @@ nav a:visited {
 
 .projects p {
   margin-top: 2rem;
-  font-family: "", sans-serif;
+  font-family: sans-serif;
   text-align: center;
-  color: white;
+  color: darkgreen;
   font-size: 1.7rem;
 }
 
 .projects p:hover {
   cursor: pointer;
-  color: rgb(164 255 105);
-}
-
-.project img .calculator {
-  width: 100%;
-  height: 100px;
+  color: rgb(131, 240, 136);
 }
 
 .huddle {
@@ -439,12 +427,12 @@ nav a:visited {
   width: 100vw;
   height: 8rem;
   margin-top: 5rem;
-  border-top: 1px solid black;
+  border-top: 1px solid rgb(70, 71, 70);
 }
 
 .website-owner {
   font-size: clamp(1.2rem, 2.5vw, 2rem);
-  color: darkgreen;
+  color: #bbf8a1eb;
   letter-spacing: 0.2rem;
 }
 
@@ -479,9 +467,8 @@ nav a:visited {
 .my-photo {
   width: 21rem;
   height: 26rem;
-  filter: brightness(1000%) grayscale(80%);
+  filter: brightness(60%) grayscale(80%);
   z-index: -1;
-  border-radius: 23%;
 }
 
 .contact-container {
@@ -500,9 +487,9 @@ nav a:visited {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Lato", sans-serif;
+  font-family: sans-serif;
   font-size: 2rem;
-  color: #fff;
+  color: wheat;
 }
 
 .form-contact {
@@ -536,7 +523,7 @@ nav a:visited {
   margin-left: -0.8rem;
   border-style: none;
   outline: none;
-  background-color: green;
+  background-color: rgba(63, 122, 67, 0.636);
   color: #ebfee8;
   font-weight: bolder;
   border-radius: 1rem;
@@ -556,7 +543,7 @@ nav a:visited {
   outline: none;
   border-style: none;
   background-color: rgba(63, 122, 67, 0.636);
-  font-size: "", sans-serif;
+  font-size: "Lato", sans-serif;
   font-size: 1.8rem;
   font-weight: bolder;
   color: #ebfee8;
@@ -622,7 +609,7 @@ nav a:visited {
   .skills-description {
     width: 30vw;
     border-top: none;
-    border-left: 2px solid rgb(145, 247, 105);
+    border-left: 2px solid #91f769;
   }
 
   .skills-logo {
@@ -653,7 +640,6 @@ nav a:visited {
   .about-info {
     width: 60%;
     font-size: 1.9rem;
-    color: darkgreen;
   }
 
   .about-img {
@@ -754,4 +740,22 @@ nav a:visited {
   .form-btn {
     margin-bottom: 3rem;
   }
+}
+
+.toggle {
+  width: 20px;
+}
+
+.white-mode {
+  background-color: white;
+  color: black;
+}
+
+.calculator {
+  width: 35%;
+  height: 150px;
+}
+
+.change-color a {
+  color: white;
 }

@@ -71,4 +71,7 @@ close.addEventListener("click", () => {
 function myFunction() {
   let element = document.body;
   element.classList.toggle("white-mode");
+  const navLinks = document.querySelector(".projects img ");
+
+  navLinks.classList.toggle("change-color");
 }

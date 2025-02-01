@@ -128,7 +128,7 @@ table {
   border-spacing: 0;
 }
 
-# Responsive website
+/*# Responsive website
 
 > What is responsive design?
 
@@ -189,20 +189,26 @@ platform and orientation.
 }
 
 /* =========== Mobile first ======== */
+
 /* Mobile S */
+
 @media (min-width: 320px) {
   .showcase {
     width: 50%;
   }
 }
+
 /* Mobile M */
-@media (min-width: 375px) {
+
+@media ("min-width: 375px") {
   .showcase {
     width: 60%;
   }
 }
+
 /* Mobile L */
-@media (min-width: 425px) {
+
+@media ("min-width: 425px") {
   .showcase {
     width: 65%;
   }

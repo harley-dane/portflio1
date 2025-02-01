@@ -243,7 +243,6 @@ nav a:visited {
   left: 1.5rem;
   width: 150px;
   height: 150px;
-  background: url(../public/me_anim.png) center/cover;
   border-radius: 50%;
 }
 
@@ -583,11 +582,6 @@ nav a:visited {
     background-color: transparent;
     border-left: none;
     color: rgb(255, 255, 255);
-  }
-
-  .header-bg {
-    background-image: url(../public/forest1.jpg);
-    background-position: 60% 75%;
   }
 
   .header-about-me {

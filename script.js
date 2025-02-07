@@ -16,7 +16,7 @@ const myWorldAboutMe = document.getElementById("myWorldAboutMe");
 
 const hi = "Hi, I'm";
 const harley = "- Harley -";
-const developer = "I am a Frontend-Developer.";
+const developer = "I am a full-stack developer.";
 const welcome = "Welcome to my little programming world.";
 
 function autoWriter(target, string, speed) {
